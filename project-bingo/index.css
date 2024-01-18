@@ -27,6 +27,7 @@ a{
 .car {
   text-align: center;
   margin-bottom: 2px;
+  width: 23rem;
 }
 
 .car img {
