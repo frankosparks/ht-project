@@ -1,0 +1,73 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(9, 9, 15);
+  color: white;
+}
+marquee{
+  color: red;
+  font-family: arial;
+}
+h1{
+  font-family: sans-serif;
+}
+nav{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 12rem;
+  color: white;
+}
+a{
+  color: white;
+}
+
+.car {
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.car img {
+  transition: transform 0.1s ease; 
+  height: 13rem;
+  margin: 24px;
+  width: 28rem;
+} 
+img:hover{
+  cursor: pointer;
+  transform: scale(1.2); 
+}
+.row1{
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 3rem;
+}
+.row2{
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 3rem;
+}
+.row3{
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 3rem;
+}
+#contact{
+  background-color: bisque;
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+  
+}
+p{
+  font-family: sans-serif;
+}
+.price{
+  font-size: 30px;
+  color: green;
+}
+.price:hover{
+  cursor: pointer;
+}
