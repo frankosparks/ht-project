@@ -32,8 +32,8 @@ a{
 .car img {
   transition: transform 0.1s ease; 
   height: 13rem;
-  margin: 24px;
-  width: 28rem;
+  margin: 20px;
+  width: 23rem;
 } 
 img:hover{
   cursor: pointer;
